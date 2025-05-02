@@ -1,0 +1,10 @@
+services:
+  db:
+    environment:
+      MYSQL_DATABASE: todo            # Dein neuer Standard-Datenbankname
+      MYSQL_USER: todo           # Dein neuer Benutzername
+      MYSQL_PASSWORD: todo   # Dein neues Passwort
+      MYSQL_ROOT_PASSWORD: root # Passwort für den Root-Benutzer
+#  web:
+#    volumes:
+#      - /home/admin1/anwesoft/hostnet/anwesoft_secure:/var/www/html/anwesoft_secure:ro
